@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  background-color: #f5f0f0;
+}
+.container{
+  width: 96%;
+  margin: auto;
+}
+
+.link:hover{
+  color: #ff5252 !important;
+}
+.MuiBadge-badge{
+  background-color: #ff5252 !important;
+}
