@@ -3,19 +3,49 @@
 @tailwind utilities;
 
 
-body{
+body {
   font-family: "Poppins", serif;
   font-weight: 400;
   background-color: #f5f0f0;
 }
-.container{
-  width: 96%;
-  margin: auto;
+
+.container {
+  width: 96% !important;
+  margin: auto !important;
+  /* overflow: hidden !important; */
 }
 
-.link:hover{
+.link:hover {
   color: #ff5252 !important;
 }
-.MuiBadge-badge{
+
+.MuiBadge-badge {
   background-color: #ff5252 !important;
 }
+
+/* CategoryPanel */
+.CategoryPanel {
+  text-transform: capitalize !important;
+}
+
+/* slide css */
+
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  color: black !important;
+  border-radius: 50% !important;
+  background-color: #fff !important;
+  padding: 10px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+/* side scroll bar  */
+::-webkit-scrollbar{width: 8px !important;height: 8px !important;}
+::-webkit-scrollbar-thumb{background: #ff5252 !important;}
+::-webkit-scrollbar-track{background-color: #f5f0f0 !important;}
